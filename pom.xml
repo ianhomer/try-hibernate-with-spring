@@ -4,7 +4,7 @@
   <parent>
     <artifactId>project-parent</artifactId>
     <groupId>com.purplepip</groupId>
-    <version>1.0.6</version>
+    <version>1.0.7</version>
   </parent>
 
   <artifactId>try-hibernate</artifactId>
