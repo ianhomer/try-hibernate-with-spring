@@ -40,7 +40,7 @@ public class DataLoader implements ApplicationListener<ContextRefreshedEvent> {
   }
 
   private void load() {
-    for (int i = 0;i < 10 ; i ++) {
+    for (int i = 0 ; i < 10 ; i ++) {
       createSkill("skill" + i);
     }
     for (int i = 0 ; i < 10 ; i ++) {
@@ -70,6 +70,5 @@ public class DataLoader implements ApplicationListener<ContextRefreshedEvent> {
     skill.setName(name);
     skillRepository.save(skill);
   }
-
 
 }
