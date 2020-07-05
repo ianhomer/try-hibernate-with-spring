@@ -1,3 +1,7 @@
 # Hibernate Exercise
 
-Hibernate exercise.
+Try Hibernate with Spring.
+
+## tl;dr
+
+    mvn install

@@ -1,9 +1,6 @@
-# IDEA
-
-.idea/workspace.xml
-
 # Maven
 
+.java-version
 target/
 pom.xml.tag
 pom.xml.releaseBackup
