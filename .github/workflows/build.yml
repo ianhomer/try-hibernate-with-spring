@@ -12,6 +12,6 @@ jobs:
     - name: Set up JDK 
       uses: actions/setup-java@v1
       with:
-        java-version: 8.0.x
+        java-version: 11.0.x
     - name: Build with Maven
-      run: mvn install
+      run: mvn -B install
