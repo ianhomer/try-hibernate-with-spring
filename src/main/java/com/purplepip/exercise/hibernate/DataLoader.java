@@ -71,5 +71,4 @@ public class DataLoader implements ApplicationListener<ContextRefreshedEvent> {
     skillRepository.save(skill);
   }
 
-
 }

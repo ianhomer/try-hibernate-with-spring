@@ -4,7 +4,7 @@
   <parent>
     <artifactId>project-parent</artifactId>
     <groupId>com.purplepip</groupId>
-    <version>1.0.7</version>
+    <version>1.0.11</version>
   </parent>
 
   <artifactId>try-hibernate</artifactId>
@@ -12,11 +12,11 @@
 
   <properties>
     <commons-dbcp.version>1.4</commons-dbcp.version>
-    <hibernate.version>5.2.13.Final</hibernate.version>
+    <hibernate.version>5.4.18.Final</hibernate.version>
     <h2.version>1.4.196</h2.version>
-    <mysql-connector.version>6.0.6</mysql-connector.version>
-    <spring.version>5.0.3.RELEASE</spring.version>
-    <spring-data.version>2.0.3.RELEASE</spring-data.version>
+    <mysql-connector.version>8.0.16</mysql-connector.version>
+    <spring.version>5.2.7.RELEASE</spring.version>
+    <spring-data.version>2.3.1.RELEASE</spring-data.version>
   </properties>
 
   <dependencies>
@@ -55,6 +55,16 @@
       <groupId>javax.transaction</groupId>
       <artifactId>javax.transaction-api</artifactId>
       <version>1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>jakarta.xml.bind</groupId>
+      <artifactId>jakarta.xml.bind-api</artifactId>
+      <version>2.3.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.glassfish.jaxb</groupId>
+      <artifactId>jaxb-runtime</artifactId>
+      <version>2.3.2</version>
     </dependency>
   </dependencies>
 
